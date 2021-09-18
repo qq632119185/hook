@@ -1,0 +1,54 @@
+{
+    "ver": "1.0",
+    "code": 1,
+    "kstr": "664069",
+    "info": "查询结果",
+    "val": "",
+    "retN": -1,
+    "message": "ok",
+    "dbcount": 1,
+    "data": [
+        {
+            "id": 1,
+            "listimg": "https://p1.music.126.net/GhhuF6Ep5Tq9IEvLsyCN7w==/18708190348409091.jpg?param=200y200",
+            "listname": "热歌榜",
+            "listsrc": "http://geapi.5nd.com/a/ar5bc.ashx?_c=mtest&_p=bXRlc3Q&nd=getLabel&t=104&ids=31",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "listimg": "https://p1.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=200y200",
+            "listname": "飙升榜",
+            "listsrc": "http://geapi.5nd.com/a/ar5bc.ashx?_c=mtest&_p=bXRlc3Q&nd=getLabel&t=104&ids=2",
+            "completed": true
+        },
+        {
+            "id": 3,
+            "listimg": "https://p1.music.126.net/N2HO5xfYEqyQ8q6oxCw8IQ==/18713687906568048.jpg?param=200y200",
+            "listname": "新歌榜",
+            "listsrc": "http://geapi.5nd.com/a/ar5bc.ashx?_c=mtest&_p=bXRlc3Q&nd=getLabel&t=104&ids=6",
+            "completed": false
+        },
+        {
+            "id": 4,
+            "listimg": "https://p1.music.126.net/sBzD11nforcuh1jdLSgX7g==/18740076185638788.jpg?param=200y200",
+            "listname": "原创榜",
+            "listsrc": "http://geapi.5nd.com/a/ar5bc.ashx?_c=mtest&_p=bXRlc3Q&nd=getLabel&t=104&ids=11",
+            "completed": false
+        },
+        {
+            "id": 5,
+            "listimg": "https://p1.music.126.net/FUTBe-hYwYZ7kidXNz2f0g==/109951165611546880.jpg?param=200y200",
+            "listname": "云音乐电音榜",
+            "listsrc": "http://geapi.5nd.com/a/ar5bc.ashx?_c=mtest&_p=bXRlc3Q&nd=getLabel&t=104&ids=30",
+            "completed": false
+        },
+        {
+            "id": 6,
+            "listimg": "https://p1.music.126.net/8sRm2fQNh_KZeWmJ1sRhQQ==/109951165611408950.jpg?param=200y200",
+            "listname": "抖音排行榜",
+            "listsrc": "http://geapi.5nd.com/a/ar5bc.ashx?_c=mtest&_p=bXRlc3Q&nd=getLabel&t=104&ids=16",
+            "completed": false
+        }
+    ]
+}
