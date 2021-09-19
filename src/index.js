@@ -109,10 +109,33 @@ export default function App() {
                         return item
                     })
                     setData(resultxx)
+                    // console.log(palylistx[0].listsrc)
                 },
                 (error) => {
                     console.log(error)
                     // error
+                    // if(error === 'TypeError: Failed to fetch') {
+                    // console.log('palylistx')
+                    // }
+                    let palylistx = palylist.filter(item => item.completed)
+                    let fetchid = ''
+                    palylistx[0] ? fetchid = palylistx[0].id : fetchid = 2
+
+                    fetch(`./playing${fetchid}.json`)
+                        .then(res => res.json())
+                        .then(
+                            result => {
+                                setData(result.data)
+                            },
+                            (error) => {
+                                console.log(error)
+                            }
+                        )
+
+
+
+
+
                 }
             )
     }, [palylist])
