@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -64,6 +64,5 @@
   "author": "qq632119185 <632119185@qq.com>",
   "license": "ISC",
   "proxy": "http://mpge.5nd.com",
-  "repository": "git@github.com:qq632119185/hook.git",
   "homepage": "https://qq632119185.github.io/hook"
 }
